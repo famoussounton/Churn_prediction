@@ -10,8 +10,8 @@ L’idée est d’entraîner un modèle de machine learning puis de le rendre ac
 - **`train_model.py`** → script qui nettoie les données, entraîne le modèle et sauvegarde tout le nécessaire (modèle, scaler, imputer, colonnes).  
 - **`app.py`** → une app Streamlit simple pour tester des prédictions en direct.  
 - **`notebook.ipynb`** → quelques explorations et visualisations pour mieux comprendre les données.  
-- **`.pkl`** → fichiers sauvegardés (modèle et preprocessing) pour réutiliser l’entraînement sans tout relancer.  
-- **dataset** → `WA_Fn-UseC_-Telco-Customer-Churn.csv` (fourni par IBM).  
+- **`.pkl`** → fichiers sauvegardés pour réutiliser l’entraînement sans tout relancer.  
+- **dataset** → `WA_Fn-UseC_-Telco-Customer-Churn.csv`.  
 
 ---
 
